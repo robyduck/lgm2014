@@ -137,6 +137,10 @@ a:hover {
 }
 .navigation-main {
   background: #0044aa;
+  font-family: 'OSP-DIN';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
 }
 .navigation-main ul {
   margin: 0 30px;
@@ -355,7 +359,9 @@ a:hover {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'OSP-DIN';
+  font-weight: normal;
+  font-style: normal;
 }
 .site-content .entry-content h1,
 .site-content .comment-content h1,
@@ -445,7 +451,7 @@ h3 {
   position: absolute;
   left: 40px;
   top: 32px;
-  color: #aaaaaa;
+  color: #0044aa;
 }
 .site-content .entry-content blockquote cite:before,
 .site-content .comment-content blockquote cite:before,
@@ -468,7 +474,7 @@ h3 {
   padding-bottom: 40px;
 }
 .site-content .entry-title {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
 }
 .site-content .entry-title a {
@@ -1166,6 +1172,10 @@ a.wpm-button:hover {
   #page {
     width: 85%;
   }
+}
+
+#wpml_credit_footer {
+  display: none;
 }
 
 /* Header image map */
