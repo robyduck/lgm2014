@@ -33,7 +33,7 @@
 			</div>
 			<div class="box1">
 			<a id="box-link1" href="http://libregraphicsmeeting.org/2014/?page_id=150"></a>
-			<a id="box-link2" href="#"></a>
+			<a id="box-link2" href="http://libregraphicsmeeting.org/2014/?page_id=85"></a>
 			<a id="box-link3" href="https://pledgie.com/campaigns/22927"></a>
 			</div>
 		</div>
