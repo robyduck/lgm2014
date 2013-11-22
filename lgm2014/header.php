@@ -13,6 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="image_src" href="http://libregraphicsmeeting.org/2014/wp/wp-content/themes/lgm2014/images/fb_logo.png" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/osp-din" rel="stylesheet" type="text/css"/>
 <!--[if lt IE 9]>
