@@ -137,7 +137,7 @@ a:hover {
 }
 .navigation-main {
   background: #0044aa;
-  font-family: 'OSP-DIN';
+  font-family: 'OSP-DIN', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
