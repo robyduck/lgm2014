@@ -1186,7 +1186,7 @@ a.wpm-button:hover {
     padding: 5px 0; 
     width: 900px; 
     height: 100px; 
-    background-image: url(uploads/2013/11/header1.png); 
+    /* background-image: url(uploads/2013/11/header1.png); */
     background-repeat: no-repeat; 
     }
 
