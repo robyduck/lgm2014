@@ -1201,16 +1201,7 @@ a.wpm-button:hover {
 #box-link2 {
     position: absolute;
     top: -8px;
-    left: 295px;
-    width: 90px;
-    height: 40px;
-    background-color: transparent;
-  }
-
-#box-link3 {
-    position: absolute;
-    top: -8px;
-    left: 470px;
+    left: 285px;
     width: 90px;
     height: 40px;
     background-color: transparent;
