@@ -99,7 +99,13 @@ foreach ($row as $item) {
             $entry[$item['lead_id']]['role'] = $item['value'];
         break;
         case 22 :
-            $entry[$item['lead_id']]['url'] = str_replace('http://', '', $item['value']);
+            if ( $item['value'] != 'http://') {
+                if (preg_match('#^https?://#', $item['value'])) {
+                    $entry[$item['lead_id']]['url'] = $item['value'];
+                } else {
+                    $entry[$item['lead_id']]['url'] = 'http://'.$item['value'];
+                }
+            }
         break;
         case 26 :
             $entry[$item['lead_id']]['show'] = substr($item['value'], 0, 3) == 'Yes';
@@ -112,7 +118,7 @@ foreach ($row as $item) {
 
 foreach ($entry as $item) {
     if ($item['show']) {
-        echo('<p>'.(!empty($item['url']) ? '<a href="http://'.$item['url'].'">': '').$item['firstname'].' '.$item['lastname'].(!empty($item['url']) ? '</a>': '').(!empty($item['nickmane']) ? ' ('.$item['nickmane'].')' : '').'<br />'.$item['project'].(!empty($item['role']) ? ' ('.$item['role'].')' : '').'</p>');
+        echo('<p>'.(!empty($item['url']) ? '<a href="'.$item['url'].'">': '').$item['firstname'].' '.$item['lastname'].(!empty($item['url']) ? '</a>': '').(!empty($item['nickmane']) ? ' ('.$item['nickmane'].')' : '').'<br />'.$item['project'].(!empty($item['role']) ? ' ('.$item['role'].')' : '').'</p>');
     }
 }
 
