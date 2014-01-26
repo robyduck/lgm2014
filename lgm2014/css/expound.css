@@ -1207,24 +1207,36 @@ a.wpm-button:hover {
     background-color: transparent;
   }
 
-  .button {
+  .pledgie-button {
     display: block;
     position: absolute;
     top: 15px;
     right: 60px;
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     border-radius: 50px;
     font-family: 'OSP-DIN';
+    text-decoration: none;
     font-size: 18px;
-    color: #fff;
-    line-height: 30px;
+    color: #fff !important;
+    line-height: 75px;
     text-align: center;
-    background: #3a3a3a;
+    background: #D40014;
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
     -o-transform: rotate(20deg);
     writing-mode: lr-tb;
+  }
+
+  .pledgie-button span {
+    display: -moz-inline-box;  /* FF2 or lower */
+    display: inline-block;     /* FF3, Opera, Safari */
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+  .pledgie-button:hover {
+    background: #3a3a3a;
   }
 
 /* End Header image map */

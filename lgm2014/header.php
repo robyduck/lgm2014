@@ -36,7 +36,7 @@
 			<div class="box1">
 			<a id="box-link1" href="http://libregraphicsmeeting.org/2014/register"></a>
 			<a id="box-link2" href="https://pledgie.com/campaigns/22927"></a>
-			<a href="https://pledgie.com/campaigns/22927" class="button" alt="Click here to lend your support to:  Libre Graphics Meeting 2014 and make a donation at pledgie.com !">Donate at pledgie.com!</a>
+			<a href="https://pledgie.com/campaigns/22927" class="pledgie-button" alt="Click here to lend your support to:  Libre Graphics Meeting 2014 and make a donation at pledgie.com !"><span>Donate at pledgie.com!</span></a>
 			</div>
 		</div>
 
