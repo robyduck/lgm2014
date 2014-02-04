@@ -359,7 +359,7 @@ a:hover {
 h1,
 h2,
 h3 {
-  font-family: 'OSP-DIN';
+  font-family: 'OSP-DIN', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
